@@ -1,0 +1,74 @@
+[
+  {
+    "id": "633453837cfce213a785aa21",
+    "name": "Cycling",
+    "guide": "Indoor cycling is a wonderful way to improve cardiovascular health. It's similar to other forms of cardio, such as running, swimming, and elliptical training. It's ideal for people who want a cardio workout without putting too much stress on their joints",
+    "time": 30,
+    "image": "https://images.unsplash.com/photo-1635702961175-f6949dded992?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "age":"20 - 29"
+  },
+  {
+    "id": "6334538350d8ae1c18d3185f",
+    "name": "Playing Football",
+    "guide": "Football, also called association football or soccer, is a game involving two teams of 11 players who try to maneuver the ball into the other team's goal without using their hands or arms. The team that scores more goals wins. Football is the world's most popular ball game in numbers of participants and spectators",
+    "time": 45,
+    "image": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80",
+    "age":"20 - 25"
+  },
+  {
+    "id": "633453838c206b4688ca046e",
+    "name": "Walking",
+    "guide": "Walking 30 minutes a day can help reduce the risk of heart attack and disease, according to the American Heart Association. You may be able to reduce your risk of heart issues even further by walking faster, notes Elmardi.",
+    "time": 30,
+    "image": "https://images.unsplash.com/photo-1592903204858-e288251ad9cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "age":"20 - 60"
+  },
+  {
+    "id": "6334538391419571d85feeac",
+    "name": "Going to college",
+    "guide": "When Americans say they are going to college they mean they have left high school and are continuing with their higher education. The place where they are studying could be a university, college, institute, conservatory, school, union or academy",
+    "time": 30,
+    "image": "https://images.unsplash.com/photo-1503676382389-4809596d5290?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+    "age":"20 - 25"
+  },
+  {
+    "id": "633453832d717dd19f1db553",
+    "name": "Swimmer",
+    "guide": "That swimmer has overcome more obstacles in their life than imaginable and is working to better themselves. A swimmer is physically strong but mentally stronger. Remember that and work towards it!",
+    "time": 30,
+    "image": "https://images.unsplash.com/photo-1527626247564-8496075f3934?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3dpbW1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "age":"20 - 24"
+  },
+  {
+    "id": "633453834cd9e243b05bede0",
+    "name": "Writing",
+    "guide": "Writing skills are specifics abilities which help writers put their thoughts. into words in a meaningful form and to mentally interact with the message. There are some different definitions of writing explained by some different. linguists. Writing is an integral part of a larger activity where the focus is on.",
+    "time": 20,
+    "image": "https://images.unsplash.com/photo-1550592704-6c76defa9985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "age":"20 - 60"
+  },
+  {
+    "id": "633453837cfce213a785aa21",
+    "name": "Programming",
+    "guide": "A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language, and are used in computer programming to implement algorithms",
+    "time": 300,
+    "image": "https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "age":"20 - 29"
+  },
+  {
+    "id": "6334538350d8ae1c18d3185f",
+    "name": "Study",
+    "guide": "1 : the act of making an effort to learn by reading, practicing, or memorizing. 2 : a careful investigation or examination of something the study of a disease. 3 : a room especially for study, reading, or writing.",
+    "time": 240,
+    "image": "https://images.unsplash.com/photo-1560541907-4d0de680e3a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2xhc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "age":"20 - 38"
+  },
+  {
+    "id": "633453838c206b4688ca046e",
+    "name": "Eating",
+    "guide": "Eating (also known as consuming) is the ingestion of food, typically to provide a heterotrophic organism with energy and to allow for growth.",
+    "time": 10,
+    "image": "https://images.unsplash.com/photo-1529973565457-a60a2ccf750d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVhdGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "age":"0-80"
+  }
+]
