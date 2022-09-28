@@ -19,7 +19,7 @@ const Sidebar = ({time}) => {
  }
     const [breakTime,setBreakTime] = useState(0)
     const addBreak = (value) => {
-        let breakingTime = 1
+        let breakingTime = 0;
       if(value === '10s'){
         breakingTime = 10 ;
       }
