@@ -1,0 +1,9 @@
+.questions-container{
+    max-width: 90%;
+    margin: 50px auto; 
+    background-color: #a8a8a877;
+    color: #616161;
+    border-radius: 8px;
+    border: 3px solid #b1b1b1;
+    word-wrap: wrap;
+}
