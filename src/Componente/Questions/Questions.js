@@ -10,7 +10,7 @@ const Questions = () => {
             <p>React uses a declarative paradigm that makes it easier to reason about your application and aims to be both efficient and flexible. </p>
            </div>
            <div>
-            <h3>difference between props and state in react</h3>
+            <h3>difference between props and state in react?</h3>
             <p>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components</p>
            </div>
            <div>
