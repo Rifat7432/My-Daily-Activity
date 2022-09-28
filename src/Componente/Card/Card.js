@@ -4,7 +4,7 @@ import './Card.css'
 const Card = ({activity,addTime}) => {
     const {name,time,image,age,guide} = activity
     return (
-        <div className='card'>
+        <div className='card'data-aos="zoom-in">
             <img className='player-img' src={image} alt="" />
             <div className="card-body">
                 <h4>{name}</h4>

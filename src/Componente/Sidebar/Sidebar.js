@@ -1,13 +1,22 @@
+
 import React from 'react';
+import Swal from 'sweetalert2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import './Sidebar.css'
-import image from '../../images/photo-1509112756314-34a0badb29d4.avif'
+import image from '../../images/IMG20220503174950_01 (2).jpg'
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { getToStorage, setToStorage } from '../../Utilities/stroage';
 
 const Sidebar = ({time}) => {
+ const done = () =>{
+    Swal.fire(
+        'Good job!',
+        'Your Activity Is Completed',
+        'success'
+      )
+ }
     const [breakTime,setBreakTime] = useState(0)
     const addBreak = (value) => {
         let breakingTime = 1
@@ -33,8 +42,6 @@ const Sidebar = ({time}) => {
       const oldBreakTime = getToStorage()
       setBreakTime(oldBreakTime)
     },[breakTime])
-    
-   
     return (
         <div className='side-bar'>
             <div className='profile-info'>
@@ -49,7 +56,7 @@ const Sidebar = ({time}) => {
                     <h5><strong className='large'>54</strong><small>kg</small></h5>
                     <p>Weight</p>
                 </div>
-                <div style={{marginTop : 5}}>
+                <div className='spcial'>
                     <h2>5.6</h2>
                     <p>Weight</p>
                 </div>
@@ -79,7 +86,7 @@ const Sidebar = ({time}) => {
                     <p>{breakTime}s</p>
                 </div>
             </div>
-            <button className='Activity'>Activity Completed</button>
+            <button onClick={done} className='Activity'>Activity Completed</button>
         </div>
     );
 };

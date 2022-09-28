@@ -1,4 +1,23 @@
 .home{
     display: grid;
-    grid-template-columns: 75% 25%;
+}
+@media screen and (max-width: 576px){
+    .home{
+       display: flex;
+       flex-direction: column-reverse;
+    }
+    .home div{
+        max-width: 98%;
+        margin: 20px auto;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .home{
+        grid-template-columns: 65% 35%;
+    }
+}
+@media screen and (min-width: 993px){
+    .home{
+        grid-template-columns: 75% 25%;
+    }
 }

@@ -79,3 +79,24 @@
         background-color: #008cff;
  
 }
+.spcial{
+    margin-top: 10px;
+}
+@media screen and (max-width: 576px){
+    .side-bar{
+        width: 300px;
+}
+.spcial{
+    margin-top: 28px !important;
+}
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .caside-barrds{
+       flex-direction: column;
+    }
+}
+@media screen and (min-width: 993px){
+    .side-bar{
+        flex-direction: column;
+    }
+}
