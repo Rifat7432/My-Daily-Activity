@@ -6,7 +6,7 @@ const Questions = () => {
         <div className='questions-container'>
             <h1>QUESTIONS</h1>
            <div>
-            <h3>how does react work </h3>
+            <h3>how does react work ?</h3>
             <p>React uses a declarative paradigm that makes it easier to reason about your application and aims to be both efficient and flexible. </p>
            </div>
            <div>
