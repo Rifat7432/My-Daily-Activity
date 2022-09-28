@@ -1,0 +1,20 @@
+.logo{
+    width: 57px;
+    height: 58px;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.main{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 15px;
+}

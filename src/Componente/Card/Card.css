@@ -1,0 +1,35 @@
+.card{
+    margin-top: 50px;
+    background-color: #a8a8a877;
+    color: #616161;
+    border-radius: 8px;
+    border: 3px solid #b1b1b1;
+    
+}
+.player-img{
+   height: 300px;
+    width: 95%;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+.card-body{
+    text-align: left;
+    margin: 20px;
+}
+.liked{
+    width: 100%;
+    margin: 4px auto;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 7px;
+    color: #c9c9c9;
+    font-size: large;
+    background-color: #008cff;
+
+
+}
+.liked:active{
+    
+    background-color: #008341;
+ 
+}

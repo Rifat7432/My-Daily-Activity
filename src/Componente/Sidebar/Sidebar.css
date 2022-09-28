@@ -1,0 +1,82 @@
+.side-bar{
+    background-color: #a8a8a877;
+    border-radius: 10px;
+}
+.thumb{
+    margin-top: 25px;
+    height: 60px;
+    width: 60px;
+    border-radius: 1000px;
+}
+.profile-info{
+    display: flex;
+    margin-left: 30px;
+}
+.profile-info div{
+    text-align: start;
+    margin-left: 15px;
+}
+.large{
+ font-size:25px;
+}
+.info{
+    margin: 5px 15px;
+    background-color: #a6cddf77;
+     border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.break{
+    margin: 5px 15px;
+    text-align: start;
+
+}
+.break-btn{
+    border-radius: 20px;
+    background-color: #a6cddf77;
+    padding: 20px 10px;
+    display: flex;
+    justify-content:space-around;
+}
+.break-btn button{
+   background-color:azure;
+   border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 1000px;
+}
+.all-Exercise{
+    margin-left: 10px;
+    text-align: start;
+}
+.Exercise{
+    border-radius: 20px;
+    background-color: #a6cddf77;
+    padding: 8px 10px;
+    margin: 30px 10px;
+    display: flex;
+    justify-content:space-around;
+}
+.Activity{
+    width: 90%;
+    margin: 20px 15px;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 7px;
+    color: #c9c9c9;
+    font-size: large;
+    background-color: #008cff;
+
+
+}
+.Activity:active{
+    
+    background-color: #008341;
+ 
+}
+.break-btn button:active{
+    
+    background-color: #008cff;
+
+ 
+}
