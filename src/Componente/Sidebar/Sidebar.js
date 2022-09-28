@@ -3,8 +3,38 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import './Sidebar.css'
 import image from '../../images/photo-1509112756314-34a0badb29d4.avif'
+import { useState } from 'react';
+import { useEffect } from 'react';
+import { getToStorage, setToStorage } from '../../Utilities/stroage';
 
-const Sidebar = () => {
+const Sidebar = ({time}) => {
+    const [breakTime,setBreakTime] = useState(0)
+    const addBreak = (value) => {
+        let breakingTime = 1
+      if(value === '10s'){
+        breakingTime = 10 ;
+      }
+      else if(value === '20s'){
+        breakingTime = 20 ;
+      }
+      else if(value === '30s'){
+        breakingTime = 30 ;
+      }
+      else if(value === '40s'){
+        breakingTime = 40 ;
+      }
+      else if(value === '50s'){
+        breakingTime = 50 ;
+      }
+      setToStorage(breakingTime)
+      setBreakTime(breakingTime)
+    }
+    useEffect(()=>{
+      const oldBreakTime = getToStorage()
+      setBreakTime(oldBreakTime)
+    },[breakTime])
+    
+   
     return (
         <div className='side-bar'>
             <div className='profile-info'>
@@ -31,22 +61,22 @@ const Sidebar = () => {
             <div className='break'>
                 <h3>Add A Break</h3>
                 <div className='break-btn'>
-                <button>10s</button>
-                <button>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-                <button>50s</button>
+                <button onClick={(e)=>addBreak(e.target.innerText)}>10s</button>
+                <button onClick={(e)=>addBreak(e.target.innerText)}>20s</button>
+                <button onClick={(e)=>addBreak(e.target.innerText)}>30s</button>
+                <button onClick={(e)=>addBreak(e.target.innerText)}>40s</button>
+                <button onClick={(e)=>addBreak(e.target.innerText)}>50s</button>
                 </div>
             </div>
             <div className='all-Exercise'>
                 <h2>Exercise Details</h2>
                 <div className='Exercise'>
                     <p>Exercise time</p>
-                    <p></p>
+                    <p>{time}s</p>
                 </div>
                 <div className='Exercise'>
                     <p>Break time</p>
-                    <p></p>
+                    <p>{breakTime}s</p>
                 </div>
             </div>
             <button className='Activity'>Activity Completed</button>

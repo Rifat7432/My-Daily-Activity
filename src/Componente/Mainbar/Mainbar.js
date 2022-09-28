@@ -3,7 +3,7 @@ import logo from '../../images/images-removebg-preview.png';
 import Card from '../Card/Card';
 import'./Mainbar.css'
 
-const Mainbar = ({activities,addTime}) => {
+const Mainbar = ({activities,addTime,addBreak}) => {
    
     return (
         <div>
