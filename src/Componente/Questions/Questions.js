@@ -3,7 +3,7 @@ import './Questions.css'
 
 const Questions = () => {
     return (
-        <div >
+        <div className='questions-container'>
             <h1>QUESTIONS</h1>
            <div>
             <h3>how does react work </h3>
